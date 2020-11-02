@@ -140,7 +140,7 @@ python -u feature_loss.py [SAME PARAMETERS SEEN FOR classify_extract_attack.py]
 ```
 this will generate the text file ```./data/<dataset_name>/full_experiment_name>/features_dist_avg_all_attack.txt``` with the average FL results, and the csv file ```./data/<dataset_name>/<full_experiment_name>/features_dist_all_attack.csv``` with the FL results for each attacked image. 
 
-Finally, to evaluate the Learned Perceptual Image Patch Similarity (LPIPS) between attacked and original images, please refer to [The Unreasonable Effectiveness of Deep Features as a Perceptual Metric](https://arxiv.org/pdf/1801.03924.pdf) (Zhang et al.) and their official GitHub [repository](https://github.com/richzhang/PerceptualSimilarity). Among all proposed combinations, we decided to fine-tune a VGG network since it is the best one at imitating a real human-evaluation in circumstances comparable to visual attacks. 
+Finally, to evaluate the Learned Perceptual Image Patch Similarity (LPIPS) between attacked and original images, please refer to [Zhang et al.](https://arxiv.org/pdf/1801.03924.pdf) and their official GitHub [repository](https://github.com/richzhang/PerceptualSimilarity). Among all proposed combinations, we decided to fine-tune a VGG network since it is the best one at imitating a real human-evaluation in circumstances comparable to visual attacks. 
 
 ### EXTRA: script input parameters
 ```
