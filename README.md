@@ -30,8 +30,6 @@ Then, install all required Python dependencies with the command:
 pip install -r requirements.txt
 ```
 
-To download and place correctly all datasets, run the bash script ```download_datasets.sh```.
-
 This will create the following directory tree:
 ```
 ./data
@@ -129,7 +127,7 @@ This will produce (i) all attacked images, saved in ```tiff``` format to ```./da
 ### 4. Recommendations generation after attack
 Generate the recommendation lists for the produced visual attacks as specified in [Recommendations generation](#2-recommendations-generation).
 
-### 5. Attack Success Rate and Feature Loss
+### 5. Attack Success Rate, Feature Loss and Learned Perceptual Image Patch Similarity
 In order to generate the attack Success Rate (SR) for each attack/defense combination, run the following script:
 ```
 python -u evaluate_attack.py [SAME PARAMETERS SEEN FOR classify_extract_attack.py]
@@ -141,6 +139,8 @@ Then, to generate the Feature Loss (FL) for each attack/defense combination, run
 python -u feature_loss.py [SAME PARAMETERS SEEN FOR classify_extract_attack.py]
 ```
 this will generate the text file ```./data/<dataset_name>/full_experiment_name>/features_dist_avg_all_attack.txt``` with the average FL results, and the csv file ```./data/<dataset_name>/<full_experiment_name>/features_dist_all_attack.csv``` with the FL results for each attacked image. 
+
+Finally, to evaluate the Learned Perceptual Image Patch Similarity (LPIPS) between attacked and original images, please refer to the official GitHub [page](https://github.com/richzhang/PerceptualSimilarity) and the [paper](https://arxiv.org/pdf/1801.03924.pdf).
 
 ### EXTRA: script input parameters
 ```
