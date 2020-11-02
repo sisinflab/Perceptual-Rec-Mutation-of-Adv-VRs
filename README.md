@@ -147,7 +147,6 @@ this will generate the text file ```./data/<dataset_name>/full_experiment_name>/
 --dataset: {
     amazon_men 
     amazon_women
-    tradesy
 }
 
 --defense : {
@@ -199,7 +198,7 @@ All attacks are implemented with [CleverHans](https://github.com/tensorflow/clev
 | C & W ([Carlini and Wagner](https://arxiv.org/pdf/1608.04644.pdf)) | <ul><li>binary steps = 5</li><li>initial c = 10e-2</li><li>confidence = 0</li><li>iterations = 1000</li><li>learning rate = 5e-3</li></ul> |
 
 ## Citing this work
-If you use Perceptual Rec Mutation of Adv VRs for academic research, you are encouraged to cite our paper:
+If you use Perceptual Rec Mutation of Adv VRs for academic research, you are encouraged to cite our [paper](http://sisinflab.poliba.it/publications/2020/ADMM20/CR_WDCS_NeurIPS2020_Assessing_Perceptual_and_Recommendation_Mutation_of_Adversarialli_Poisoned_Visual_Recommenders.pdf):
 ```
 @Article{ADMM20,
 author = {Vito Walter Anelli and Tommaso {Di Noia} and Daniele Malitesta and Felice Antonio Merra},
