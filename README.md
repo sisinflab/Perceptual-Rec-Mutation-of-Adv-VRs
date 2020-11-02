@@ -1,5 +1,5 @@
 # Assessing Perceptual and Recommendation Mutationof Adversarially-Poisoned Visual Recommenders
-Accepted at WDCS@NeurIPS2020
+Accepted at WDCS@NeurIPS2020\\
 Here is the architectural scheme of our proposed framework:
 
 ![VAR](./overview.png)
