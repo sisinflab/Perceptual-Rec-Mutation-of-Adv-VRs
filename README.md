@@ -1,5 +1,9 @@
 # Assessing Perceptual and Recommendation Mutationof Adversarially-Poisoned Visual Recommenders
-Accepted at WDCS@NeurIPS2020<br/>
+Authors:<br/>
+Vito Walter Anelli<br/>
+Tommaso Di Noia<br/>
+Daniele Malitesta<br/>
+Felice Antonio Merra<br/>
 Here is the architectural scheme of our proposed framework:
 
 **Table of Contents:**
