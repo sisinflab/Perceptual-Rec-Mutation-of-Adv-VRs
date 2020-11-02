@@ -1,5 +1,5 @@
 # Assessing Perceptual and Recommendation Mutationof Adversarially-Poisoned Visual Recommenders
-This repository is the official implementation of ![Assessing Perceptual and Recommendation Mutationof Adversarially-Poisoned Visual Recommenders](http://sisinflab.poliba.it/publications/2020/ADMM20/)
+This repository is the official implementation of [Assessing Perceptual and Recommendation Mutationof Adversarially-Poisoned Visual Recommenders](http://sisinflab.poliba.it/publications/2020/ADMM20/)
 ![VAR](./nips.png)
 
 **Table of Contents:**
