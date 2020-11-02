@@ -10,7 +10,7 @@
   - [Recommendations generation](#2-recommendations-generation)
   - [Visual attacks](#3-visual-attacks)
   - [Recommendations generation after attack](#4-recommendations-generation-after-attack)
-  - [Attack Success Rate, Feature Loss and Learned Perceptual Image Patch Similarity](#5-attack-success-rate-and-feature-loss)
+  - [Attack Success Rate, Feature Loss and Learned Perceptual Image Patch Similarity](#5-attack-success-rate-feature-loss-and-learned-perceptual-image-patch-similarity)
   - [EXTRA: script input parameters](#extra-script-input-parameters)
 - [Datasets, pre-trained defense models and attack parameters](#datasets-pre-trained-defense-models-and-attack-parameters)
   - [Datasets](#datasets)
