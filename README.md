@@ -203,3 +203,27 @@ All attacks are implemented with [CleverHans](https://github.com/tensorflow/clev
 | FGSM ([Goodfellow et al.](https://arxiv.org/pdf/1412.6572.pdf))    | <ul><li>epsilon = {4, 8} (rescaled by 255)</li></ul>                                                                           |
 | PGD ([Madry et al.](https://arxiv.org/pdf/1706.06083.pdf))         | <ul><li>epsilon = {4, 8} (rescaled by 255)</li><li>alpha = epsilon / 6</li><li>iterations = 10</li></ul>                             |
 | C & W ([Carlini and Wagner](https://arxiv.org/pdf/1608.04644.pdf)) | <ul><li>binary steps = 5</li><li>initial c = 10e-2</li><li>confidence = 0</li><li>iterations = 1000</li><li>learning rate = 5e-3</li></ul> |
+
+### Citing this work
+If you use Perceptual Rec Mutation of Adv VRs for academic research, you are encouraged to cite our paper:
+```
+@Article{ADMM20,
+author = {Vito Walter Anelli and Tommaso {Di Noia} and Daniele Malitesta and Felice Antonio Merra},
+title = "Assessing Perceptual and Recommendation Mutation
+of Adversarially-Poisoned Visual Recommenders",
+journal = "The 1st Workshop on Dataset Curation and Security
+co-located with the 34th Conference on Neural
+InformationProcessing Systems (NeurIPS 2020),
+Vancouver, Canada (Virtual Event).",
+month = "dec",
+year = "2020",
+note = "Code and Datasets:
+https://github.com/sisinflab/Perceptual-Rec-Mutati
+on-of-Adv-VRs",
+key = "Adversarial Machine Learning, Recommender Systems, Deep Learning",
+keywords = "Adversarial Machine Learning, Recommender Systems,
+Deep Learning",
+url = "http://sisinflab.poliba.it/publications/2020/ADMM2
+0"
+}
+```
