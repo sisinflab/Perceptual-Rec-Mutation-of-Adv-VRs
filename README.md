@@ -1,4 +1,4 @@
-# An Empirical Study of DNNs Robustification Inefficacy in Protecting Visual Recommenders
+# Assessing Perceptual and Recommendation Mutationof Adversarially-Poisoned Visual Recommenders
 Here is the architectural scheme of our proposed framework:
 
 ![VAR](./overview.png)
