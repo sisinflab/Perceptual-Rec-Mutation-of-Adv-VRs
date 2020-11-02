@@ -46,12 +46,6 @@ This will create the following directory tree:
         0.jpg
         1.jpg
         ...
-  tradesy/
-    original/
-      images/
-        0.jpg
-        1.jpg
-        ...
 ```
 
 ## Reproduce paper results
