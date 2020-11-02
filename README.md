@@ -1,5 +1,6 @@
 # Assessing Perceptual and Recommendation Mutation of Adversarially-Poisoned Visual Recommenders
 </br>This repository is the official implementation of our [paper](http://sisinflab.poliba.it/publications/2020/ADMM20/) accepted at WDCS@NeurIPS2020.
+</br>
 ![Image](./nips.png)
 
 **Table of Contents:**
