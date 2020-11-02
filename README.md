@@ -220,3 +220,9 @@ url = "http://sisinflab.poliba.it/publications/2020/ADMM2
 0"
 }
 ```
+## Authors
+The authors are in alphabetical order. Corresponding authors are in bold.
+* Vito Walter Anelli
+* Tommaso Di Noia
+* <b>Daniele Malitesta</b>
+* <b>Felice Antonio Merra</b>
