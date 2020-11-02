@@ -140,7 +140,7 @@ python -u feature_loss.py [SAME PARAMETERS SEEN FOR classify_extract_attack.py]
 ```
 this will generate the text file ```./data/<dataset_name>/full_experiment_name>/features_dist_avg_all_attack.txt``` with the average FL results, and the csv file ```./data/<dataset_name>/<full_experiment_name>/features_dist_all_attack.csv``` with the FL results for each attacked image. 
 
-Finally, to evaluate the Learned Perceptual Image Patch Similarity (LPIPS) between attacked and original images, please refer to the official GitHub [page](https://github.com/richzhang/PerceptualSimilarity) and the [paper](https://arxiv.org/pdf/1801.03924.pdf).
+Finally, to evaluate the Learned Perceptual Image Patch Similarity (LPIPS) between attacked and original images, please refer to the [paper](https://arxiv.org/pdf/1801.03924.pdf) and the official GitHub [repository](https://github.com/richzhang/PerceptualSimilarity).
 
 ### EXTRA: script input parameters
 ```
