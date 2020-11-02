@@ -204,7 +204,7 @@ All attacks are implemented with [CleverHans](https://github.com/tensorflow/clev
 | PGD ([Madry et al.](https://arxiv.org/pdf/1706.06083.pdf))         | <ul><li>epsilon = {4, 8} (rescaled by 255)</li><li>alpha = epsilon / 6</li><li>iterations = 10</li></ul>                             |
 | C & W ([Carlini and Wagner](https://arxiv.org/pdf/1608.04644.pdf)) | <ul><li>binary steps = 5</li><li>initial c = 10e-2</li><li>confidence = 0</li><li>iterations = 1000</li><li>learning rate = 5e-3</li></ul> |
 
-### Citing this work
+## Citing this work
 If you use Perceptual Rec Mutation of Adv VRs for academic research, you are encouraged to cite our paper:
 ```
 @Article{ADMM20,
