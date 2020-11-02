@@ -1,5 +1,6 @@
 # Assessing Perceptual and Recommendation Mutationof Adversarially-Poisoned Visual Recommenders
 This repository is the official implementation of 
+![VAR](./nips.png)
 
 **Table of Contents:**
 - [Requirements](#requirements)
