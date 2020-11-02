@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# download datasets
+wget https://download.wetransfer.com//eu2/8740e60e5bd3fd982860f63d9cd6254a20200714114855/f3c4158aec20457f3ff27b846b79b8aac3fc72dd/data.zip?cf=y&token=eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTQ3NDQ2MTksInVuaXF1ZSI6Ijg3NDBlNjBlNWJkM2ZkOTgyODYwZjYzZDljZDYyNTRhMjAyMDA3MTQxMTQ4NTUiLCJmaWxlbmFtZSI6ImRhdGEuemlwIiwiaG90IjpmYWxzZSwid2F5YmlsbF91cmwiOiJodHRwOi8vcHJvZHVjdGlvbi5iYWNrZW5kLnNlcnZpY2UuZXUtd2VzdC0xLnd0OjkyOTIvd2F5YmlsbC92MS9zYXJrYXIvZjNlZjVlOTY0NDJhN2E5OTc0ZmY1M2QwNzkxNGJmMjkyNjYzZjJjNTk3MTg4MWVkNmFjYmQ5NDZhN2UwMmQ5MzljY2YyYTkwYjA2MzQ1YTQ1ZmRhYjEiLCJmaW5nZXJwcmludCI6ImYzYzQxNThhZWMyMDQ1N2YzZmYyN2I4NDZiNzliOGFhYzNmYzcyZGQiLCJjYWxsYmFjayI6IntcImZvcm1kYXRhXCI6e1wiYWN0aW9uXCI6XCJodHRwOi8vcHJvZHVjdGlvbi5mcm9udGVuZC5zZXJ2aWNlLmV1LXdlc3QtMS53dDozMDAwL3dlYmhvb2tzL2JhY2tlbmRcIn0sXCJmb3JtXCI6e1widHJhbnNmZXJfaWRcIjpcIjg3NDBlNjBlNWJkM2ZkOTgyODYwZjYzZDljZDYyNTRhMjAyMDA3MTQxMTQ4NTVcIixcImRvd25sb2FkX2lkXCI6OTc1NDY4ODQ1OH19In0.HP0mqYYQkopydhhtY7qiGCM_Ylrgme7aJ1SnNgcTjxQ
+unzip data.zip
+rm data.zip
+
+# create directories recommendation
+mkdir -p ./rec_results/amazon_men/
+mkdir -p ./rec_results/amazon_women/
+mkdir -p ./rec_results/tradesy/
+
+mkdir -p ./rec_model_weights/amazon_men/
+mkdir -p ./rec_model_weights/amazon_women/
+mkdir -p ./rec_model_weights/tradesy/
+
+mkdir -p ./chr/amazon_men/
+mkdir -p ./chr/amazon_women/
+mkdir -p ./chr/tradesy/
+
+mkdir -p ./ncdcg/amazon_men/
+mkdir -p ./ncdcg/amazon_women/
+mkdir -p ./ncdcg/tradesy/
