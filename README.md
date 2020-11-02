@@ -2,8 +2,6 @@
 Accepted at WDCS@NeurIPS2020<br/>
 Here is the architectural scheme of our proposed framework:
 
-![VAR](./overview.png)
-
 **Table of Contents:**
 - [Requirements](#requirements)
 - [Reproduce paper results](#reproduce-paper-results)
@@ -189,7 +187,6 @@ this will generate the text file ```./data/<dataset_name>/full_experiment_name>/
 | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
 |     Amazon Men     |      5 | 24,379 | 7,371 | 89,020  |
 |    Amazon Women    |   10 | 16,668 | 2,981 | 54,473  |
-|      Tradesy       |   10 | 6,253 | 1,670 | 21,533 |
 
 [Click here](https://drive.google.com/file/d/1_daGmkBRqv5z201rNUAW1R3C29rPqBEL/view?usp=sharing) to download datasets.
 
