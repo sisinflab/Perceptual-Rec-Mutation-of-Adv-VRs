@@ -32,7 +32,7 @@ Then, install all required Python dependencies with the command:
 pip install -r requirements.txt
 ```
 
-This will create the following directory tree:
+By downloading the dataset (see [here](#datasets)), you will have the following directory tree:
 ```
 ./data
   amazon_men/
